@@ -7,18 +7,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<script src="https://kit.fontawesome.com/99b02439d4.js" crossorigin="anonymous"></script>
-
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+	<header class="page-header">
+		<h1>ToDo app</h1>
+	</header>
 	<main>
-		<h1>To do app</h1>
-		<label for="todo-item">To do:</label><input type="text" id="todo-item" name=todo-item>
+
+		<label for="todo-input">To do:</label><input type="text" id="todo-input" name="todo-input">
 		<button id="add-todo-item">Add Task</button>
-		<h2>My to do list</h2>
 		<ol id=todo-list>
 		</ol>
 	</main>
+	<script defer src="api-client.js"></script>
 	<script defer src="script.js"></script>
 </body>
 

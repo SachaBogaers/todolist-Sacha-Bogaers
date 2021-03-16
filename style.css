@@ -1,0 +1,52 @@
+.page-header {
+	text-align: center
+}	
+
+.page-header h1 {
+	color: blue;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+main {
+	text-align: center;
+
+}
+
+ol {
+	padding-top: 20px;
+	width: 300px;
+	margin: 0 auto;
+
+}
+
+li {
+	list-style-type: none;
+	border: 0.5px solid grey;
+	border-radius: 2px;
+
+}
+
+label.todo-label {
+	display: inline-block;
+	padding: 1px 0 1px 3px;
+	width: 255px;
+}
+
+
+
+i.fa-save {
+	width: 16px;
+	padding: 0 2px 0 2px;
+}
+
+input[type=text] {
+	width: 230px;
+	text-align: center;
+}
+
+label.done {
+	text-decoration: line-through;
+}
+
