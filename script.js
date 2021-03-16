@@ -146,4 +146,8 @@ const deleteItem = (deleteButton) => {
 
 
 toDoButton.addEventListener('click', addNewItem);
-
+toDoInput.addEventListener('keypress', function (e) {
+	if (e.key === 'Enter') {
+		addNewItem();
+	}
+})
